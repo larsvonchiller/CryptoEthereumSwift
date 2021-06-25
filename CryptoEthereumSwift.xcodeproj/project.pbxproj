@@ -18,8 +18,6 @@
 		1AD1D65120B7F009007AFF80 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1D65020B7F009007AFF80 /* Crypto.swift */; };
 		1AD1D65220B7F07F007AFF80 /* Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD1D63620B7E95A007AFF80 /* Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1AD1D65420B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1D65320B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift */; };
-		55B616FF26860BEA0023B24F /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD1D65520B7F252007AFF80 /* CryptoSwift.framework */; };
-		55B6170026860BEA0023B24F /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD1D65520B7F252007AFF80 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +29,6 @@
 			remoteInfo = CryptoEthereumSwift;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		55B6170126860BEA0023B24F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				55B6170026860BEA0023B24F /* CryptoSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1AD1D61B20B7E822007AFF80 /* CryptoEthereumSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoEthereumSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B616FF26860BEA0023B24F /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +172,6 @@
 				1AD1D61720B7E822007AFF80 /* Frameworks */,
 				1AD1D61820B7E822007AFF80 /* Headers */,
 				1AD1D61920B7E822007AFF80 /* Resources */,
-				55B6170126860BEA0023B24F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

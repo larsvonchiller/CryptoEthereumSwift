@@ -40,21 +40,21 @@
       "identifier" : "tvos-arm64"
     }
   ],
-  "commitish" : "1.4.1",
+  "commitish" : "1.4.4",
   "iOS" : [
     {
       "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
-      "hash" : "97f9294375646d17a639f9ad5efce24d07e5b6fab432dee47d56ceea7ee51dce",
-      "name" : "CryptoSwift",
-      "container" : "CryptoSwift.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
-    },
-    {
-      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
-      "hash" : "fef350096dd54ebde59ba1f7fc02ec05753cc4dca9b14257e04dfe4d8cbb9e3c",
+      "hash" : "2e39f5c86077d88b9cd2f4b536cec1048dbc7d92b3c55c3ef3b472524fdacba7",
       "name" : "CryptoSwift",
       "container" : "CryptoSwift.xcframework",
       "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "d30bf519b0bb3a5f0213701ee282997de89cdc6d1ee0c104d050b59ee96330fb",
+      "name" : "CryptoSwift",
+      "container" : "CryptoSwift.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
     }
   ]
 }
